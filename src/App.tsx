@@ -96,11 +96,11 @@ const projects: Project[] = [
 const authorInfo: AuthorInfo = {
   name: "Yuan De Leon",
   title: "Full Stack Developer",
-  bio: "Passionate developer with 5+ years of experience building web applications. Specialized in React, TypeScript, and Node.js. Love creating beautiful, functional user experiences.",
+  bio: "A simple developer with experience of building web applications. Specialized in React, TypeScript, and Node.js. Love creating beautiful, functional user experiences.",
   email: "yuandeleon027@gmail.com",
   github: "https://github.com/yourusername",
   linkedin: "https://www.linkedin.com/in/de-leon-yuan-eissen-e-230b25392/",
-  avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&h=400&fit=crop",
+  avatar: "https://media.licdn.com/dms/image/v2/D4D03AQGiwF00z8IZow/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1700536034700?e=2147483647&v=beta&t=ue9WXCXFM3GdLuz4X5zCE0aMF74Ni_VBYvq6y1sNuYU",
   skills: [
     "React", "TypeScript", "Node.js", "Python", 
     "MongoDB", "MYSQL", "JAVA", "REST APIs",
