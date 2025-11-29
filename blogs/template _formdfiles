@@ -1,0 +1,29 @@
+---
+title: The CIA TRIAD
+tags: Cybersecurity, Tutorial
+excerpt: a small note for the CIA TRIAD
+---
+Must start with --- on the first line
+Must end with --- after your metadata
+Each line should be: key: value
+Tags are separated by commas
+Date format should be YYYY-MM-DD
+
+# Main Heading
+
+This is a paragraph of text.
+
+## Subheading
+
+- Bullet point 1
+- Bullet point 2
+- Bullet point 3
+
+More text here...
+
+Run the build command
+
+Open the terminal in VS Code (bottom panel)
+Type: npm run build:blog
+Press Enter
+You should see messages saying it's processing your files
