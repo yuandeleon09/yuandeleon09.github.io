@@ -56,9 +56,6 @@
     "tailwindcss": "^3.4.1"
   },
   "proxy": "http://localhost:3000",
-<<<<<<< HEAD
+
   "homepage": "https://yuandeleon09.github.io/"
-=======
-  "homepage": ""https://yuandeleon09.github.io"
->>>>>>> f1f3df44c8d1f6c5bfe3035dd20923eba42a88f9
 }

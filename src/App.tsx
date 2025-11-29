@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Home, User, Menu, X, Github, Linkedin, Mail, ExternalLink, Briefcase, GraduationCap } from 'lucide-react';
 // Import generated blog posts
 import generatedBlogPosts from './generatedBlogPosts.json';
+import profilePic from './assets/profile.jpg';
 
 // Make sure there are NO other imports here - everything should be in this file
 
@@ -100,7 +101,7 @@ const authorInfo: AuthorInfo = {
   email: "yuandeleon027@gmail.com",
   github: "https://github.com/yourusername",
   linkedin: "https://www.linkedin.com/in/de-leon-yuan-eissen-e-230b25392/",
-  avatar: "https://media.licdn.com/dms/image/v2/D4D03AQGiwF00z8IZow/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1700536034700?e=2147483647&v=beta&t=ue9WXCXFM3GdLuz4X5zCE0aMF74Ni_VBYvq6y1sNuYU",
+  avatar: profilePic,
   skills: [
     "React", "TypeScript", "Node.js", "Python", 
     "MongoDB", "MYSQL", "JAVA", "REST APIs",

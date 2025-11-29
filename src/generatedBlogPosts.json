@@ -1,21 +1,8 @@
 [
   {
-    "id": 6,
-    "title": "Burp Suite",
-    "date": "2025-11-29T14:50:53.164Z",
-    "excerpt": "a small note for the Burp Suite...",
-    "content": "- integrated platform web security testing\r\n- used by security prof. and bug bounty hunters\r\n\r\nbug bounty companies\r\n\r\nhttps://www.hackerone.com/\r\n\r\nhttps://www.bugcrowd.com/\r\n\r\nhttps://secuna.io/\r\n\r\ncore burp suite components\r\n\r\ninstalling burpsuite\r\n\r\nproxy - your web traffic middleman - acts as middleman for all your web traffic \r\n\r\nrepeater - manual http request manipulation\r\n\r\nintruder - automated attacks\r\n\r\nscanner - \r\n\r\nsequencer - analyzing session tokens\r\n\r\n sql injection\r\n\r\nsql - structured query language\r\n\r\nimproper neutralization of special elements in sql command\r\n\r\nsql inject dangerous\r\n\r\nData breach \r\n\r\ndata loss\r\n\r\nloss of accountability\r\n\r\nDenial of service or DoS\r\n\r\nfull system compromise\r\n\r\nmitigation strats\r\n\r\n- prepared statements with parameterized queries\r\n- input validation\r\n- stored procedures(used safely)\r\n- escaping user-supplied input\r\n\r\nconclusion\r\n\r\nSQLi is a critical vulnerability where attackers manipulate databases queries by injecting malicious SQL code through user input",
-    "tags": [
-      "Cybersecurity",
-      "Tutorial"
-    ],
-    "slug": "burp suite",
-    "fileName": "burp suite.md"
-  },
-  {
     "id": 3,
     "title": "Cryptography",
-    "date": "2025-11-29T14:50:53.163Z",
+    "date": "2025-11-29T15:02:00.154Z",
     "excerpt": "a small note for the Cryptography...",
     "content": "Lesson 3 9/12/25\n\nCryptography\n\nhash functions - plaintext - hash function - hashed text\n\nciphers\n\n- symmetric encryption one session key (mas mabilis 100 to 1000 times faster than asymmetric)\n\n-asymmetric encryption - two different session keys(public key and private key)\n\nasymmetric cryptographic algo:\n\nRSA - public-key cryptosystem\n\nDSA - digital signature algo\n\nECDSA -  Elliptic Curve Digital Signature Algorithm\n\nsymmetric cryptographic algo\n\nDES - 3des Data Encryption Standard\n\nIDEA -International Data Encryption Algorithm\n\nAES - advanced encryption standard\n\nRC -  Rivest's Cipher or Ron’s Code \n\nTransport encryption - VPN, IT sec, https, ssl,wpa2,\n\nend-to-end encryption - application layer, layer 7, pineprevent ng other party mabasa yung data natin sender and receiver has the power to read the data. example: [signal](https://signal.org/) app\n\n\nCA - free  digital certificate \n\ndigital certificate - issued to, when na certified, Public key\n\nto check if the certificate is legitimate here is the link to check [link](https://crt.sh/)\n\nlet’s encrypt free to register",
     "tags": [
@@ -28,7 +15,7 @@
   {
     "id": 4,
     "title": "Cloud and virtualization fundamentals",
-    "date": "2025-11-29T14:50:53.163Z",
+    "date": "2025-11-29T15:02:00.154Z",
     "excerpt": "a small note for Cloud and virtualization fundamentals...",
     "content": "Cloud and virtualization fundamentals\n\nHypervisor \n\nHardware → hypervisor→ Virtualized OS \n\ntype 1: Native(Bare-metal) - citrix, proxmox, esxi, v-sphere\n\nHybrid - KVM / QEM\n\nType 2: Hosted - virtual box, vmware, Qem\n\nCloud storage\n\nCloud storage app\n\nfile sync\n\ncontent delivery networks(CDN)\n\nCloud deployment models\n\npublic\n\nprivate\n\nhybrid \n\ncommunity\n\nsingle tenancy\n\nmultitenancy\n\ncloud access security broker (CASB) -",
     "tags": [
@@ -41,7 +28,7 @@
   {
     "id": 5,
     "title": "Carrer opporunities in Cybersecurity",
-    "date": "2025-11-29T14:50:53.163Z",
+    "date": "2025-11-29T15:02:00.154Z",
     "excerpt": "a small note for the opportunities in getting in cybersecurity...",
     "content": "Career opportunities \r\n\r\n- growing demand\r\n- flexible work environment\r\n- competitive salaries\r\n- increased salary\r\n\r\nattacking Roles\r\n\r\n- vulnerability assessor\r\n    - identifies weakness in app and systems\r\n- penetration tester(Net/system)\r\n    - ethical hacker specialized in network and system security\r\n    - perform proof of concept testing for vulnerabilities\r\n- Security researcher\r\n    - discovers new vulnerabilities through research\r\n- web app pen test\r\n    - expert in securing web app and understanding in web tech\r\n- red team operator\r\n    - simulates adversarial tactics to test security systems.\r\n\r\nDefensive side\r\n\r\nRoles\r\n\r\nSecurity Analyst\r\n\r\n- monitors and responds to security events\r\n\r\nthreat hunter\r\n\r\n- Ethical hacker specialized in network and system security\r\n\r\nMalware / reverse engineering analyst\r\n\r\n- analyst and breaking down malicious software and code\r\n\r\ndigital forensics/independent response \r\n\r\n- investigating and responding to computer incidents\r\n\r\ncyber threat intelligence analyst \r\n\r\n- understanding and analyzing potential cyber threats\r\n\r\nthree pillars of cybersecurity \r\n\r\npeople\r\n\r\nprocess\r\n\r\ntechnology\r\n\r\n\r\nVulnerability Scanning\r\n\r\nPenetration testing - A simulated cyber attack against your computer system to check exploitable vulnerabilities. \r\n\r\nPenetration testing life cycle\r\n\r\n1. recon - discover the target\r\n2. enumeration or scanning - probing the defenses\r\n3. gaining access - breaking in\r\n4. maintaining access - Securing out foothold\r\n5. covering tracks - erasing out footprint\r\n6. reporting - documentation and reporting \r\n\r\nFUNDAMENTALS\r\n\r\n- learn the operating systems\r\n- learn basics of programming\r\n- Learn networking\r\n- learn security fundamentals\r\n- Learn frameworks / methodology\r\n- self directed learning combined with continuous practice.\r\n- cloud and AI",
     "tags": [
@@ -52,9 +39,22 @@
     "fileName": "career-opportunities.md"
   },
   {
+    "id": 6,
+    "title": "Burp Suite",
+    "date": "2025-11-29T15:02:00.154Z",
+    "excerpt": "a small note for the Burp Suite...",
+    "content": "- integrated platform web security testing\r\n- used by security prof. and bug bounty hunters\r\n\r\nbug bounty companies\r\n\r\nhttps://www.hackerone.com/\r\n\r\nhttps://www.bugcrowd.com/\r\n\r\nhttps://secuna.io/\r\n\r\ncore burp suite components\r\n\r\ninstalling burpsuite\r\n\r\nproxy - your web traffic middleman - acts as middleman for all your web traffic \r\n\r\nrepeater - manual http request manipulation\r\n\r\nintruder - automated attacks\r\n\r\nscanner - \r\n\r\nsequencer - analyzing session tokens\r\n\r\n sql injection\r\n\r\nsql - structured query language\r\n\r\nimproper neutralization of special elements in sql command\r\n\r\nsql inject dangerous\r\n\r\nData breach \r\n\r\ndata loss\r\n\r\nloss of accountability\r\n\r\nDenial of service or DoS\r\n\r\nfull system compromise\r\n\r\nmitigation strats\r\n\r\n- prepared statements with parameterized queries\r\n- input validation\r\n- stored procedures(used safely)\r\n- escaping user-supplied input\r\n\r\nconclusion\r\n\r\nSQLi is a critical vulnerability where attackers manipulate databases queries by injecting malicious SQL code through user input",
+    "tags": [
+      "Cybersecurity",
+      "Tutorial"
+    ],
+    "slug": "burp suite",
+    "fileName": "burp suite.md"
+  },
+  {
     "id": 1,
     "title": "Web application security",
-    "date": "2025-11-29T14:50:53.162Z",
+    "date": "2025-11-29T15:02:00.152Z",
     "excerpt": "a small note for the Web application security...",
     "content": "Web application security\r\n\r\nAdvanced Research Projects Agency Network (ARPANET) - foundation of the Internet\r\n\r\n- http,ftp ,email\r\n\r\nTHE OLD WEB THE DAWN OF THE WORLD WIDE WEB\r\n\r\n- Tim Berners-Lee in 1989, web 1.0, static HTML pages\r\n\r\nModern Web\r\n\r\n- html 5 css 3 js\r\n\r\nConfidentiality\r\n\r\nIntegrity\r\n\r\nAvailability\r\n\r\nCase Study\r\n\r\nBlackcat ransomware group\r\n\r\n- 3.09 bill approx healthcare colossus\r\n\r\nAnatomy of Web\r\n\r\nURL- uniform resource locator",
     "tags": [
