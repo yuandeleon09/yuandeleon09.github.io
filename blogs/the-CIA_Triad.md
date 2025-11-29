@@ -5,9 +5,9 @@ tags:  Cybersecurity, Tutorial
 excerpt: a small note for the CIA TRIAD
 ---
 
-# Main Heading
+
 Violation of Security Principle
-## Subheading
+
 CIA TRIAD- 
 
 CIA triad
